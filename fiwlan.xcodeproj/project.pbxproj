@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDF69471E6AC0C8001AC874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF69461E6AC0C8001AC874 /* AppDelegate.swift */; };
+		DCDF69491E6AC0C8001AC874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF69481E6AC0C8001AC874 /* ViewController.swift */; };
+		DCDF694B1E6AC0C8001AC874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDF694A1E6AC0C8001AC874 /* Assets.xcassets */; };
+		DCDF694E1E6AC0C8001AC874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF694C1E6AC0C8001AC874 /* Main.storyboard */; };
+		DCDF69591E6AC0C8001AC874 /* fiwlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF69581E6AC0C8001AC874 /* fiwlanTests.swift */; };
+		DCDF69641E6AC0C8001AC874 /* fiwlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF69631E6AC0C8001AC874 /* fiwlanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCDF69551E6AC0C8001AC874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDF693B1E6AC0C8001AC874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDF69421E6AC0C8001AC874;
+			remoteInfo = fiwlan;
+		};
+		DCDF69601E6AC0C8001AC874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDF693B1E6AC0C8001AC874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDF69421E6AC0C8001AC874;
+			remoteInfo = fiwlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCDF69431E6AC0C8001AC874 /* fiwlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fiwlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF69461E6AC0C8001AC874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDF69481E6AC0C8001AC874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCDF694A1E6AC0C8001AC874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDF694D1E6AC0C8001AC874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDF694F1E6AC0C8001AC874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF69541E6AC0C8001AC874 /* fiwlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiwlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF69581E6AC0C8001AC874 /* fiwlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiwlanTests.swift; sourceTree = "<group>"; };
+		DCDF695A1E6AC0C8001AC874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF695F1E6AC0C8001AC874 /* fiwlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fiwlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF69631E6AC0C8001AC874 /* fiwlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiwlanUITests.swift; sourceTree = "<group>"; };
+		DCDF69651E6AC0C8001AC874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDF69401E6AC0C8001AC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF69511E6AC0C8001AC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF695C1E6AC0C8001AC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDF693A1E6AC0C8001AC874 = {
+			isa = PBXGroup;
+			children = (
+				DCDF69451E6AC0C8001AC874 /* fiwlan */,
+				DCDF69571E6AC0C8001AC874 /* fiwlanTests */,
+				DCDF69621E6AC0C8001AC874 /* fiwlanUITests */,
+				DCDF69441E6AC0C8001AC874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDF69441E6AC0C8001AC874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF69431E6AC0C8001AC874 /* fiwlan.app */,
+				DCDF69541E6AC0C8001AC874 /* fiwlanTests.xctest */,
+				DCDF695F1E6AC0C8001AC874 /* fiwlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDF69451E6AC0C8001AC874 /* fiwlan */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF69461E6AC0C8001AC874 /* AppDelegate.swift */,
+				DCDF69481E6AC0C8001AC874 /* ViewController.swift */,
+				DCDF694A1E6AC0C8001AC874 /* Assets.xcassets */,
+				DCDF694C1E6AC0C8001AC874 /* Main.storyboard */,
+				DCDF694F1E6AC0C8001AC874 /* Info.plist */,
+			);
+			path = fiwlan;
+			sourceTree = "<group>";
+		};
+		DCDF69571E6AC0C8001AC874 /* fiwlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF69581E6AC0C8001AC874 /* fiwlanTests.swift */,
+				DCDF695A1E6AC0C8001AC874 /* Info.plist */,
+			);
+			path = fiwlanTests;
+			sourceTree = "<group>";
+		};
+		DCDF69621E6AC0C8001AC874 /* fiwlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF69631E6AC0C8001AC874 /* fiwlanUITests.swift */,
+				DCDF69651E6AC0C8001AC874 /* Info.plist */,
+			);
+			path = fiwlanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDF69421E6AC0C8001AC874 /* fiwlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF69681E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlan" */;
+			buildPhases = (
+				DCDF693F1E6AC0C8001AC874 /* Sources */,
+				DCDF69401E6AC0C8001AC874 /* Frameworks */,
+				DCDF69411E6AC0C8001AC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fiwlan;
+			productName = fiwlan;
+			productReference = DCDF69431E6AC0C8001AC874 /* fiwlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDF69531E6AC0C8001AC874 /* fiwlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF696B1E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlanTests" */;
+			buildPhases = (
+				DCDF69501E6AC0C8001AC874 /* Sources */,
+				DCDF69511E6AC0C8001AC874 /* Frameworks */,
+				DCDF69521E6AC0C8001AC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDF69561E6AC0C8001AC874 /* PBXTargetDependency */,
+			);
+			name = fiwlanTests;
+			productName = fiwlanTests;
+			productReference = DCDF69541E6AC0C8001AC874 /* fiwlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCDF695E1E6AC0C8001AC874 /* fiwlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF696E1E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlanUITests" */;
+			buildPhases = (
+				DCDF695B1E6AC0C8001AC874 /* Sources */,
+				DCDF695C1E6AC0C8001AC874 /* Frameworks */,
+				DCDF695D1E6AC0C8001AC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDF69611E6AC0C8001AC874 /* PBXTargetDependency */,
+			);
+			name = fiwlanUITests;
+			productName = fiwlanUITests;
+			productReference = DCDF695F1E6AC0C8001AC874 /* fiwlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDF693B1E6AC0C8001AC874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fiwlan;
+				TargetAttributes = {
+					DCDF69421E6AC0C8001AC874 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DCDF69531E6AC0C8001AC874 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDF69421E6AC0C8001AC874;
+					};
+					DCDF695E1E6AC0C8001AC874 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDF69421E6AC0C8001AC874;
+					};
+				};
+			};
+			buildConfigurationList = DCDF693E1E6AC0C8001AC874 /* Build configuration list for PBXProject "fiwlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDF693A1E6AC0C8001AC874;
+			productRefGroup = DCDF69441E6AC0C8001AC874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDF69421E6AC0C8001AC874 /* fiwlan */,
+				DCDF69531E6AC0C8001AC874 /* fiwlanTests */,
+				DCDF695E1E6AC0C8001AC874 /* fiwlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDF69411E6AC0C8001AC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF694B1E6AC0C8001AC874 /* Assets.xcassets in Resources */,
+				DCDF694E1E6AC0C8001AC874 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF69521E6AC0C8001AC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF695D1E6AC0C8001AC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDF693F1E6AC0C8001AC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF69491E6AC0C8001AC874 /* ViewController.swift in Sources */,
+				DCDF69471E6AC0C8001AC874 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF69501E6AC0C8001AC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF69591E6AC0C8001AC874 /* fiwlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF695B1E6AC0C8001AC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF69641E6AC0C8001AC874 /* fiwlanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCDF69561E6AC0C8001AC874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDF69421E6AC0C8001AC874 /* fiwlan */;
+			targetProxy = DCDF69551E6AC0C8001AC874 /* PBXContainerItemProxy */;
+		};
+		DCDF69611E6AC0C8001AC874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDF69421E6AC0C8001AC874 /* fiwlan */;
+			targetProxy = DCDF69601E6AC0C8001AC874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCDF694C1E6AC0C8001AC874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDF694D1E6AC0C8001AC874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCDF69661E6AC0C8001AC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCDF69671E6AC0C8001AC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DCDF69691E6AC0C8001AC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCDF696A1E6AC0C8001AC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCDF696C1E6AC0C8001AC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiwlan.app/Contents/MacOS/fiwlan";
+			};
+			name = Debug;
+		};
+		DCDF696D1E6AC0C8001AC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fiwlan.app/Contents/MacOS/fiwlan";
+			};
+			name = Release;
+		};
+		DCDF696F1E6AC0C8001AC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fiwlan;
+			};
+			name = Debug;
+		};
+		DCDF69701E6AC0C8001AC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = fiwlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = felix.fiwlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = fiwlan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDF693E1E6AC0C8001AC874 /* Build configuration list for PBXProject "fiwlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF69661E6AC0C8001AC874 /* Debug */,
+				DCDF69671E6AC0C8001AC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDF69681E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF69691E6AC0C8001AC874 /* Debug */,
+				DCDF696A1E6AC0C8001AC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCDF696B1E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF696C1E6AC0C8001AC874 /* Debug */,
+				DCDF696D1E6AC0C8001AC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCDF696E1E6AC0C8001AC874 /* Build configuration list for PBXNativeTarget "fiwlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF696F1E6AC0C8001AC874 /* Debug */,
+				DCDF69701E6AC0C8001AC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCDF693B1E6AC0C8001AC874 /* Project object */;
+}
